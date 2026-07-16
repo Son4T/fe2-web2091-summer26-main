@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import Lab1 from "./labs/lab1";
 import Lab2 from "./labs/lab2";
 import Lab3 from "./labs/lab3";
+import Lab4 from "./labs/lab4";
 
 function App() {
   return (
@@ -36,11 +37,13 @@ function App() {
         </div>
       </nav>
 
+      {/* MAIN CONTENT */}
       <div className="max-w-6xl mx-auto mt-10 px-4 text-center">
         <h1 className="text-4xl font-bold mb-4">Hello, welcome to our website.</h1>
         <Lab1 />
         <Lab2 />
         <Lab3 />
+        <Lab4 />
       </div>
 
       <Toaster />
