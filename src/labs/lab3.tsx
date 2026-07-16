@@ -1,29 +1,24 @@
 import { Form, Input, InputNumber, Select, Button } from "antd";
 
 function Lab3() {
-  // Bài 1: Form đăng nhập
   const onFinishLogin = (values: any) => {
     console.log(values);
   };
 
-  // Bài 2: Form đăng ký người dùng
   const onFinishRegister = (values: any) => {
     console.log(values);
   };
 
-  // Bài 3: Form thêm sản phẩm
   const onFinishProduct = (values: any) => {
     console.log(values);
   };
 
-  // Bài 4: Form thêm bài viết
   const onFinishPost = (values: any) => {
     console.log(values);
   };
 
   return (
     <div>
-      {/* Bài 1 */}
       <h3>Form đăng nhập</h3>
       <Form layout="vertical" onFinish={onFinishLogin} style={{ maxWidth: 400 }}>
         <Form.Item
@@ -49,7 +44,6 @@ function Lab3() {
         </Form.Item>
       </Form>
 
-      {/* Bài 2 */}
       <h3>Form đăng ký người dùng</h3>
       <Form layout="vertical" onFinish={onFinishRegister} style={{ maxWidth: 400 }}>
         <Form.Item
@@ -116,7 +110,6 @@ function Lab3() {
         </Form.Item>
       </Form>
 
-      {/* Bài 3 */}
       <h3>Form thêm sản phẩm</h3>
       <Form layout="vertical" onFinish={onFinishProduct} style={{ maxWidth: 400 }}>
         <Form.Item
@@ -154,7 +147,6 @@ function Lab3() {
         </Form.Item>
       </Form>
 
-      {/* Bài 4 */}
       <h3>Form thêm bài viết</h3>
       <Form layout="vertical" onFinish={onFinishPost} style={{ maxWidth: 400 }}>
         <Form.Item

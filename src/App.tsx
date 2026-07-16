@@ -36,7 +36,6 @@ function App() {
         </div>
       </nav>
 
-      {/* MAIN CONTENT */}
       <div className="max-w-6xl mx-auto mt-10 px-4 text-center">
         <h1 className="text-4xl font-bold mb-4">Hello, welcome to our website.</h1>
         <Lab1 />
