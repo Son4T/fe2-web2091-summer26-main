@@ -6,7 +6,7 @@
       "author": "Oda Eiichiro",
       "description": "Hành trình tìm kho báu One Piece",
       "image": "https://photo2.tinhte.vn/data/attachment-files/2019/05/4669704_32ECD10A-46BB-44C3-A443-275D8E0F3CDD.jpeg",
-      "createdAt": "2026-01-10T00:00:00.000Z"
+      "createdAt": "2026-07-10"
     },
     {
       "id": 2,
@@ -14,7 +14,7 @@
       "author": "Kishimoto Masashi",
       "description": "Câu chuyện về ninja làng lá",
       "image": "https://tse4.mm.bing.net/th/id/OIP.-SuijvmAAiRPty9Eua9QXgHaDt?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
-      "createdAt": "2026-02-15T00:00:00.000Z"
+      "createdAt": "2026-07-10"
     },
     {
       "id": 3,
@@ -22,7 +22,7 @@
       "author": "Fujiko F. Fujio",
       "description": "Chú mèo máy đến từ tương lai",
       "image": "https://tse3.mm.bing.net/th/id/OIP.w69gag4bz88WRP7QKTeiEAHaEK?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
-      "createdAt": "2026-03-01T00:00:00.000Z"
+      "createdAt": "2026-07-10"
     },
     {
       "id": 4,
@@ -30,7 +30,7 @@
       "author": "Toriyama Akira",
       "description": "Cuộc phiêu lưu của Son Goku",
       "image": "https://tse4.mm.bing.net/th/id/OIP.3-7NQNyavKG3LtrvtwcGagHaEK?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
-      "createdAt": "2026-04-20T00:00:00.000Z"
+      "createdAt": "2026-07-10"
     },
     {
       "id": 5,
@@ -38,7 +38,7 @@
       "author": "Aoyama Gosho",
       "description": "Thám tử lừng danh Conan",
       "image": "https://th.bing.com/th/id/OIP.jS0WzxorboPflGEPzL0VvwHaE8?r=0&o=7rm=3&rs=1&pid=ImgDetMain&o=7&rm=3",
-      "createdAt": "2026-05-05T00:00:00.000Z"
+      "createdAt": "2026-07-10"
     },
     {
       "id": 6,
@@ -46,7 +46,27 @@
       "author": "Inoue Takehiko",
       "description": "Đội bóng rổ trường Shohoku",
       "image": "https://tse4.mm.bing.net/th/id/OIP.khu0vhxfVusRqLqbcHwlqgHaKe?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
-      "createdAt": "2026-06-12T00:00:00.000Z"
+      "createdAt": "2026-07-10"
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "title": "Shounen",
+      "description": "Truyện dành cho thiếu niên",
+      "active": true
+    },
+    {
+      "id": 2,
+      "title": "Shoujo",
+      "description": "Truyện dành cho thiếu nữ",
+      "active": true
+    },
+    {
+      "id": 3,
+      "title": "Seinen",
+      "description": "Truyện dành cho người lớn",
+      "active": false
     }
   ]
 }

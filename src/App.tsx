@@ -4,6 +4,7 @@ import Lab1 from "./labs/lab1";
 import Lab2 from "./labs/lab2";
 import Lab3 from "./labs/lab3";
 import Lab4 from "./labs/lab4";
+import Lab5 from "./labs/lab5";
 
 function App() {
   return (
@@ -44,6 +45,7 @@ function App() {
         <Lab2 />
         <Lab3 />
         <Lab4 />
+        <Lab5 />
       </div>
 
       <Toaster />
